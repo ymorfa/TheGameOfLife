@@ -34,8 +34,8 @@ control_surface = pygame.Surface((190, 580))
 control_surface.fill(BACKGROUND_COLOR)
 
 # Boton de Pausa en Panel
-pause_image        = pygame.image.load("img/stop.png")
-play_image         = pygame.image.load("img/play.png")
+pause_image        = pygame.image.load("image/stop.png")
+play_image         = pygame.image.load("image/play.png")
 pause_button_size  = 30
 pause_image        = pygame.transform.scale(pause_image, (pause_button_size, pause_button_size))
 play_image         = pygame.transform.scale(play_image, (pause_button_size, pause_button_size))
@@ -43,26 +43,26 @@ pause_button_image = play_image
 is_paused          = True
 
 # Boton de Salvar Estado:
-save_image        = pygame.image.load("img/save_false.png")
-saved_image       = pygame.image.load("img/saved.png")
+save_image        = pygame.image.load("image/save_false.png")
+saved_image       = pygame.image.load("image/saved.png")
 save_button_size  = 50
 save_image        = pygame.transform.scale(save_image, (save_button_size, save_button_size))
 saved_image       = pygame.transform.scale(saved_image, (save_button_size, save_button_size))
 save_button_image = save_image
 
 # Boton de recargar estado salvado
-reload_button_image        = pygame.image.load("img/reload.png")
+reload_button_image        = pygame.image.load("image/reload.png")
 reload_button_size         = 30
 reload_button_image        = pygame.transform.scale(reload_button_image, (reload_button_size, reload_button_size))
 
 # Boton de generar estado Aleatorio
-random_button_image        = pygame.image.load("img/random.png")
+random_button_image        = pygame.image.load("image/random.png")
 random_button_size         = 30
 random_button_image        = pygame.transform.scale(random_button_image, (random_button_size, random_button_size))
 
 # Boton de seleccionar Vecindad
-moore_image              = pygame.image.load("img/moore.png")
-neumann_image            = pygame.image.load("img/neumann.png")
+moore_image              = pygame.image.load("image/moore.png")
+neumann_image            = pygame.image.load("image/neumann.png")
 neighborhood_button_size = 100
 moore_image              = pygame.transform.scale(moore_image, (neighborhood_button_size, neighborhood_button_size))
 neumann_image            = pygame.transform.scale(neumann_image, (neighborhood_button_size, neighborhood_button_size))
